@@ -1,13 +1,9 @@
 .app{
   background-color: #0E1323;
   height: 100vh;
-  /* padding: 100px 50px 150px 50px; */
   display: grid;
   justify-content: center;
   align-content: center;
-  /* display: flex; */
-
-  /* height: 100%; */
 }
 
 .containers {
@@ -30,8 +26,6 @@
 
 
 #ulAttachedMainCard{
-  /* margin-top: 50%;
-  margin-top:354px; */
   list-style: none;
   font-family: 'Rubik';
   font-style: normal;
@@ -71,8 +65,6 @@ color: #FFFFFF;
 }
 
 .card-container{
-  /* display: flex;
-  flex-wrap: wrap; */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -84,13 +76,9 @@ color: #FFFFFF;
 
 
 .card {
-  /* width: 18%; */
-
   z-index: 1;
   position: relative;
   top: 42px;
-
-  /* margin-bottom: 30px; */
   background: #1C204B;
   border-radius: 15px;
   color: #fff
@@ -123,8 +111,6 @@ color: #FFFFFF;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  /* width: 168px; */
-  /* height:49px; */
   color: #BBC0FF;
 }
 
@@ -152,29 +138,19 @@ color: #FFFFFF;
 
 /* ////PRFOFILE */
 .main-card{
-  /* position: absolute; */
-  /* width: 255px; */
-
-  /* left: 3%; */
   display: grid;
-  background: #5747EA;
+  background: #1C204B;
   border-radius: 15px;
-  /* z-index: 1; */
-  /* top:38%; */
-  /* transform: translateY(-50%); */
+  z-index: 2;
+  position: relative;
+
 }
 
 .attached-main-card {
-  /* position: absolute;
-  width: 255px;
-  height: 518px;
-  left: 3%;
-  top:0; */
-  
-  background: #1C204B;
+  position: relative;
+  background: #5747EA;
+  z-index: 1;
   border-radius: 15px;
-  /* top:50%;
-  transform: translateY(-50%); */
 }
 
 
@@ -190,7 +166,6 @@ color: #FFFFFF;
 
 
 .profile-caption {
-  /* //TODO: add-fonts */
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
