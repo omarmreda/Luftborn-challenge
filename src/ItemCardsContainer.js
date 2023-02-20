@@ -8,7 +8,7 @@ export default function ItemCardsContainer({ data }) {
     "#55C2E6",
     "#4BCF82",
     "#7335D2",
-    "F1C75B",
+    "#F1C75B",
     "#4BCF82",
     "#7335D2",
   ];

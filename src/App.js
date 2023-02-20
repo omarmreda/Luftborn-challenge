@@ -13,7 +13,6 @@ function App() {
     <div className="app">
       <div className="containers">
         <MainCard />
-
         <ItemCardsContainer data={data} />
       </div>
     </div>
